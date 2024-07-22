@@ -1,0 +1,13 @@
+{
+  "name": "summarizerproject",
+  "version": "1.0.0",
+  "description": "a simple yt summary application",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.11.1",
+    "puppeteer-core": "^22.11.2"
+  }
+}
