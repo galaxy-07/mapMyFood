@@ -1,6 +1,6 @@
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
-const genAI = new GoogleGenerativeAI("AIzaSyAHHBfUktofGk-v94OVQL8gEmFFmZ5S2gM");
+const genAI = new GoogleGenerativeAI("");
 
 const model = genAI.getGenerativeModel({ model: "gemini-pro"});
 const imageLink = ""; // image of the food item, can be a MySQL image directory.
